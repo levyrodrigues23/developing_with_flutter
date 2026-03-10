@@ -24,18 +24,21 @@ class _HomePageStateFullState extends State<HomePageStatefull> {
     print("buildando o home page statefull");
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: [
-          Text(texto),
-          TextButton(
-            onPressed: () {
-              setState(() {
-                texto = "eu alterei o texto agora";
-              });
-            },
-            child: Text('alterar texto'),
-          ),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(texto),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  texto = "eu alterei o texto agora";
+                });
+              },
+              child: Text('alterar texto'),
+            ),
+          ],
+        ),
       ),
     );
   }
