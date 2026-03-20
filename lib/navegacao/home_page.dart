@@ -20,7 +20,9 @@ class HomePage extends StatelessWidget {
               settings: RouteSettings(name: 'page2'),
               builder: (context) => Page2(),),);
             }, child: Text('page2 via page')),
-            ElevatedButton(onPressed: () {}, child: Text('page2 via named')),
+            ElevatedButton(onPressed: () {
+              Navigator.of(context).pushNamed(Page2.routeName);
+            }, child: Text('page2 via named')),
           ],
         ),
       ),
