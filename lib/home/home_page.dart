@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomePageTeste extends StatelessWidget {
+  const HomePageTeste({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('nossa primeira app bar'),
+        title: Text('nossa primeira app bar', style: TextStyle(fontFamily: 'teste'),),
         backgroundColor: Colors.deepPurpleAccent,
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.add_link_outlined)),
