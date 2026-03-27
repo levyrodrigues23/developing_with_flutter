@@ -13,7 +13,7 @@ class Lista extends StatelessWidget {
           children: [
             TextButton(
               onPressed: () {
-                Navigator.of(
+                /*  Navigator.of(
                   context,
                 ).push(MaterialPageRoute(
                   settings: RouteSettings(
@@ -22,9 +22,22 @@ class Lista extends StatelessWidget {
                       'id': 10
                     }
                   ),
-                  builder: (context) => Detalhe()));
+                  builder: (context) => Detalhe()));*/
+
+                Navigator.of(
+                  context,
+                ).pushNamed('/detalhe', arguments: {'id': 20});
               },
               child: Text('detalhes'),
+            ),
+            const SizedBox(height: 8),
+            TextButton(
+              onPressed: () {
+                Navigator.of(
+                  context,
+                ).pushNamed('/detalhe', arguments: {'id': 30});
+              },
+              child: Text('detalhes 2'),
             ),
           ],
         ),

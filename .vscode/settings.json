@@ -1,0 +1,41 @@
+{
+  "files.watcherExclude": {
+    "**/.dart_tool/**": true,
+    "**/build/**": true,
+    "**/ios/Flutter/ephemeral/**": true,
+    "**/macos/Flutter/ephemeral/**": true,
+    "**/linux/flutter/ephemeral/**": true,
+    "**/windows/flutter/ephemeral/**": true,
+    "**/android/.gradle/**": true
+  },
+  "search.exclude": {
+    "**/.dart_tool/**": true,
+    "**/build/**": true,
+    "**/ios/Flutter/ephemeral/**": true,
+    "**/macos/Flutter/ephemeral/**": true,
+    "**/linux/flutter/ephemeral/**": true,
+    "**/windows/flutter/ephemeral/**": true,
+    "**/android/.gradle/**": true
+  },
+  "dart.analysisExcludedFolders": [
+    ".dart_tool",
+    "build",
+    "ios/Flutter/ephemeral",
+    "macos/Flutter/ephemeral",
+    "linux/flutter/ephemeral",
+    "windows/flutter/ephemeral",
+    "android/.gradle"
+  ],
+  "search.followSymlinks": false,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.smoothScrolling": false,
+  "workbench.list.smoothScrolling": false,
+  "breadcrumbs.enabled": false,
+  "git.autorefresh": false,
+  "terminal.integrated.gpuAcceleration": "off"
+}
